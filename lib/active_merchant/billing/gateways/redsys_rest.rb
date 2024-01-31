@@ -82,8 +82,8 @@ module ActiveMerchant #:nodoc:
         authorize:  '1',
         capture:    '2',
         refund:     '3',
-        cancel:     '9',
-        verify:     '7'
+        verify:     '7',
+        cancel:     '9'
       }
 
       # These are the text meanings sent back by the acquirer when
